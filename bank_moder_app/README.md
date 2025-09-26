@@ -39,7 +39,7 @@ A Frontend Development **Bank Modern Web Responsive App** built with the **React
 - **Framer Motion** – Smooth animations and transitions
 - **TypeScript** – Type safety
 
-**Deployment** - Frontend → [Vercel](https://task-manager-web-application-one.vercel.app)
+**Deployment** - Frontend → [Vercel](https://practice-frontend-development.vercel.app)
 
 
 ## 📦 Getting Started
