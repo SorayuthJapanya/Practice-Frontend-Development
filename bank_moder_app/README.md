@@ -1,73 +1,90 @@
-# React + TypeScript + Vite
+<div align= "center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr>
+</div>
 
-Currently, two official plugins are available:
+<div align="center">
+<a href="https://github.com/SorayuthJapanya/Practice-Frontend-Development/tree/main/bank_moder_app" target="blank">
+<img src="image/logo.svg" width="90" alt="Logo" />
+</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2> Project Name : Bank Modern Web Responsive App </h2>
 
-## React Compiler
+![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img src="image/banner.png" width="80%">
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 💡 Overview
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+A Frontend Development **Bank Modern Web Responsive App** built with the **React.Js** (TypeScript).  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Responsive landing page for a modern bank app
+- Sticky navbar with smooth scroll
+- Animated counters (triggered when in view)
+- Infinite scrolling client carousel
+- Gradient buttons & hover effects
+- Blur + glassmorphism navbar
+- Clean project structure for scalability
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 👩‍💻 Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React + Vite** – Fast frontend setup
+- **Tailwind CSS v4** – Utility-first CSS framework
+- **Framer Motion** – Smooth animations and transitions
+- **TypeScript** – Type safety
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Deployment** - Frontend → [Vercel](https://task-manager-web-application-one.vercel.app)
+
+
+## 📦 Getting Started
+
+To get a local copy of this project up and running, follow these steps.
+
+### 🚀 Prerequisites
+
+- **Node.js** (v16.x or higher) and **npm** or **pnpm**.
+- **Pnpm** If you prefer using npm for package management and running scripts.
+
+## 🛠️ Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/SorayuthJapanya/Practice-Frontend-Development.git
+    cd Practice-Frontend-Development/bank_moder_app
+    ```
+
+2.  **Setup Backend (React + Vite + Typescript):**
+
+    Using Pnpm & Start the development client:
+
+    ```bash
+    pnpm install
+    pnpm run dev
+    ```
+
+    This Website will run on: `http://localhost:5173`
+
+## 📖 Usage
+
+### ✔ Running the Website
+
+- **Development mode:** `npm run dev`, `pnpm run dev`, `yarn dev`, or `bun dev`.
+- **Production mode:** `npm run build && npm start`, `pnpm run build && pnpm start`, `yarn build && yarn start`, or `bun run build && bun start`.
+
+> Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
+
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss.
+
+## 📜 License
+
+This project is for learning and practice purposes. Feel free to use it as a reference or starting point.
